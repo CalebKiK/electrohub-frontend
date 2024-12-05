@@ -30,3 +30,25 @@
     color: #333;
     /* margin: 0; */
   }
+
+  @media (max-width: 450px) {
+    .credibility-section {
+      margin-left: -310px;
+      width: 360px;
+    }
+    
+    .feature {
+      text-align: center;
+      margin: 0 10px; /* Reduce space between features */
+    }
+    
+    .feature-icon {
+      width: 50px; 
+      height: 50px; 
+    }
+    
+    .feature p {
+      font-size: 14px;
+    }
+  
+  }

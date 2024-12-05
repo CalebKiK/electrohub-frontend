@@ -249,3 +249,24 @@ body {
   font-size: 0.9rem;
   color: #666;
 }
+
+@media (max-width: 450px) {
+
+  .support-container h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .support-links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .support-links h2{
+    font-size: 15px;
+  }
+
+  .support-links p{
+    font-size: 12px;
+  }
+}

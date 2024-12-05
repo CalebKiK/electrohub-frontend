@@ -15,7 +15,7 @@ function ItemCard({ item, addToCart }) {
     };
 
     return (
-        <div className="item-card">
+        <div className="display-item-card">
             <div className="item-card-info">
                 <img src={item.item_image_url} alt={item.item_name} />
                 <h4>{item.item_name}</h4>

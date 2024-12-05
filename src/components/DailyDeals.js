@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import './OfferSection.css';
 import ItemCard from "./ItemCard";
 
 function DailyDeals({ addToCart }) {
@@ -12,11 +13,11 @@ function DailyDeals({ addToCart }) {
     }, []);
 
     const handleSwipeLeft = () => {
-        setOffset((prevOffset) => prevOffset + 1000);
+        setOffset((prevOffset) => prevOffset + 500);
     };
 
     const handleSwipeRight = () => {
-        setOffset((prevOffset) => Math.max(prevOffset - 1000, 0));
+        setOffset((prevOffset) => Math.max(prevOffset - 500, 0));
     };
 
     return (

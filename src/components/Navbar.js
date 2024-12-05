@@ -18,6 +18,12 @@ const NavBar = ({ onCategoryClick, cartItems, onSearchSubmit, onSearchChange }) 
   const [orderDetails, setOrderDetails] = useState(null);  // eslint-disable-line no-unused-vars
   const [categoryItems, setCategoryItems] = useState([]); // eslint-disable-line no-unused-vars
 
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen((prev) => !prev);
+  };
+
   useEffect(() => {
     const storedUser = JSON.parse(localStorage.getItem('user'));
     if (storedUser) {
@@ -205,8 +211,23 @@ const NavBar = ({ onCategoryClick, cartItems, onSearchSubmit, onSearchChange }) 
           onClose={closeCheckoutModal}
         />
       )}
+
+      <div className="hamburger" onClick={toggleMenu}>
+        {/* Hamburger Icon */}
+        <img src="images/menu (1).png" alt="hamburger-menu"/>
+      </div>
+
+      <ul className={`navbar-links-2 ${menuOpen ? 'show-menu' : 'hide-menu'}`}>
+        <li onClick={() => onCategoryClick('Smartphones')}>Smartphones</li>
+        <li onClick={() => onCategoryClick('PCs')}>PCs</li>
+        <li onClick={() => onCategoryClick('Tablets')}>Tablets</li>
+        <li onClick={() => onCategoryClick('Smartwatches')}>Smartwatches</li>
+        <li onClick={() => onCategoryClick('TV & Sound')}>TV & Sound</li>
+        <li onClick={() => onCategoryClick('Audio')}>Audio</li>
+      </ul>
     </nav>
   );
 };
 
 export default NavBar;
+

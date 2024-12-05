@@ -76,6 +76,7 @@ html, body {
 .footer-bottom {
   margin-top: 30px;
   font-size: 14px;
+  color: rgb(204, 204, 204);
 }
 
 
@@ -96,5 +97,21 @@ html, body {
 
   .social-media a {
     margin: 0 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .quick-links{
+    margin-top: 40px;
+  }
+
+  .quick-links a{
+    font-size: 12px;
+    margin-right: 25px;
+  }
+
+  .footer-bottom p{
+    font-size: 15px;
+    color: rgb(204, 204, 204);
   }
 }

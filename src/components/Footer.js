@@ -6,9 +6,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-      
-
-        
+    
         <div className="footer-links">
           <div className="social-media">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -22,7 +20,6 @@ function Footer() {
             </a>
           </div>
 
-          
           <div className="quick-links">
             <Link to="/terms">Terms and Conditions</Link>
             <Link to="/privacy-policy">Privacy Policy</Link>
