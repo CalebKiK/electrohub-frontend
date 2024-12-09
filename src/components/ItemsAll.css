@@ -42,6 +42,64 @@
 
 @media (max-width: 450px) {
     .all-items{
+        width: 390px;
+        margin-left: -320px;
+    }
+
+    .items-display{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px 15px;
+    }
+    
+    .all-items-header{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: -20px;
+    }
+
+    .all-items-header h1{
+        font-size: 20px;
+    }
+
+    .modify-item-btn{
+        margin-left: 50px;
+        padding: 5px 10px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 860px) {
+    .all-items{
+        width: 730px;
+        margin: 70px 0px 0px -300px;
+    }
+
+    .items-display{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-right: 10px;
+    }
+    
+    .all-items-header{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 90px;
+    }
+
+    .all-items-header h1{
+        font-size: 23px;
+    }
+
+    .modify-item-btn{
+        margin-left: 150px;
+        padding: 5px 10px;
+    }
+}
+
+@media (min-width: 860px) and (max-width: 1090px) {
+    .all-items{
         width: 350px;
         margin-left: -330px;
     }
@@ -69,10 +127,31 @@
     }
 }
 
-@media (min-width: 450px) and (max-width: 600px) {}
+@media (min-width: 1090px) and (max-width: 1740px) {
+    .all-items{
+        width: 350px;
+        margin-left: -330px;
+    }
 
-@media (min-width: 600px) and (max-width: 860px) {}
+    .items-display{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: 20px;
+    }
+    
+    .all-items-header{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: -20px;
+    }
 
-@media (min-width: 860px) and (max-width: 1090px) {}
+    .all-items-header h1{
+        font-size: 20px;
+    }
 
-@media (min-width: 1090px) and (max-width: 1740px) {}
+    .modify-item-btn{
+        margin-left: 50px;
+        padding: 5px 10px;
+    }
+}

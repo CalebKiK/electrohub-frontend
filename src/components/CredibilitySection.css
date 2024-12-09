@@ -33,12 +33,12 @@
   @media (max-width: 450px) {
     .credibility-section {
       margin-left: -330px;
-      width: 350px;
+      width: 390px;
     }
     
     .feature {
       text-align: center;
-      margin: 0 10px; /* Reduce space between features */
+      margin: 0 10px;
     }
     
     .feature-icon {
@@ -49,5 +49,51 @@
     .feature p {
       font-size: 12px;
     }
-  
   }
+
+@media (min-width: 450px) and (max-width: 860px) {
+  .credibility-section {
+    margin: 0px -260px;
+    width: 600px;
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .feature-icon {
+    width: 50px; 
+    height: 50px; 
+  }
+  
+  .feature p {
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 860px) and (max-width: 1740px) {
+  .credibility-section {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+    width: 850px;
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .feature-icon {
+    width: 60px; 
+    height: 60px; 
+  }
+  
+  .feature p {
+    font-size: 15px;
+  }
+}
+

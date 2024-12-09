@@ -7,7 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
   background: linear-gradient(to right, #000000, #000000, #0E134A , #0F144B ,#0F144C, #4C5CA6);
-  /* background: linear-gradient(to right, #000000, #0E134A , #0F144B ,#0F144C, #10174E #4C5CA6); */
 }
 
 code {
@@ -20,3 +19,13 @@ code {
     width: 430px;
   }
 }
+
+@media (min-width: 450px) and (max-width: 860px) {
+  body{
+    width: 800px;
+  }
+}
+
+@media (min-width: 860px) and (max-width: 1090px) {}
+
+@media (min-width: 1090px) and (max-width: 1740px) {}

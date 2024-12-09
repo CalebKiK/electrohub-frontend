@@ -118,7 +118,7 @@
 .search-bar button {
   background: none;
   border: none;
-  font-size: 1.2rem;
+  font-size: 15px;
   cursor: pointer;
   color: white;
   margin-left: 5px;
@@ -187,12 +187,12 @@
 
   .navbar-logo a{
     font-size: 25px;
-    margin-right: 490px;
+    margin-right: 590px;
 
   }
 
   .navbar-actions{
-    margin-left: 30px;
+    margin-left: 80px;
     position: fixed;
   }
 
@@ -244,7 +244,7 @@
   .hamburger {
     display: flex;
     background-color: white;
-    margin-left: 180px;
+    margin-left: 280px;
     position: fixed;
   }
 
@@ -260,7 +260,7 @@
     flex-direction: column;
     position: absolute;
     top: 60px;
-    right: 90px;
+    right: 70px;
     padding: 10px 20px;
     background-color: #333;
     border-radius: 5px;
@@ -269,7 +269,8 @@
 
   .navbar-links-2.show-menu {
     display: flex;
-    right: 150px;
+    right: 120px;
+    top: 50px;
   }
 
   .navbar-links-2.hide-menu {
@@ -282,10 +283,291 @@
 
 }
 
-@media (min-width: 450px) and (max-width: 600px) {}
+@media (min-width: 450px) and (max-width: 860px) {
+  .navbar-logo a{
+    font-size: 35px;
+    margin-left: -10px;
+    position: fixed;
+    margin-top: -20px;
 
-@media (min-width: 600px) and (max-width: 860px) {}
+  }
 
-@media (min-width: 860px) and (max-width: 1090px) {}
+  .navbar-actions{
+    margin-left: 150px;
+    
+  }
 
-@media (min-width: 1090px) and (max-width: 1740px) {}
+  .navbar-actions img{
+    height: 30px;
+    margin-left: 40px;
+    
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .search-bar input{
+    width: 105px;
+    margin-right: -180px;
+    margin-left: 10px;
+  }
+
+  .search-bar button{
+    height: 20px;
+    padding: 0px;
+    margin-top: -20px;
+    border-radius: 1px;
+    margin-right: 10px;
+  }
+
+  .search-bar img{
+    height: 20px;
+    margin-top: -20px;
+  }
+
+  .welcome-message{
+    font-size: 14px;
+    color: #8bbbf9;
+    margin: 0px 20px;
+  }
+
+  .auth-button{
+    font-size: 13px;
+    color: #8bbbf9;
+    margin: 0px 20px;
+  }
+
+  .navbar-icons span{
+    font-size: 14px;
+  }
+
+  .hamburger {
+    display: flex;
+    background-color: white;
+    margin-left: 10px;
+    
+  }
+
+  .hamburger img{
+    height: 25px;
+  }
+
+  .navbar-links-2 {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 5px;
+  }
+
+  .navbar-links-2.show-menu {
+    display: flex;
+    right: 70px;
+    top: 50px;
+  }
+
+  .navbar-links-2.hide-menu {
+    display: none;
+  }
+
+  .navbar-links-2 li {
+    margin: 10px 0;
+  }
+}
+
+/* @media (min-width: 600px) and (max-width: 860px) {} */
+
+@media (min-width: 860px) and (max-width: 1090px) {
+  .navbar-logo a{
+    font-size: 30px;
+    margin-right: 890px;
+
+  }
+
+  .navbar-actions{
+    margin-left: 300px;
+    position: fixed;
+  }
+
+  .navbar-actions img{
+    height: 30px;
+    margin-left: 40px;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .search-bar input{
+    width: 65px;
+    margin-right: -80px;
+    margin-left: 10px;
+  }
+
+  .search-bar button{
+    height: 20px;
+    margin-top: -20px;
+    border-radius: 1px;
+    margin-right: 10px;
+  }
+
+  .search-bar img{
+    height: 20px;
+    margin-top: -20px;
+  }
+
+  .welcome-message{
+    font-size: 14px;
+    color: #8bbbf9;
+    margin-left: 0px;
+  }
+
+  .auth-button{
+    font-size: 13px;
+    color: #8bbbf9;
+    margin-left: 0px;
+  }
+
+  .navbar-icons span{
+    font-size: 14px;
+  }
+
+  .hamburger {
+    display: flex;
+    background-color: white;
+    margin-right: 280px;
+  }
+
+  .hamburger img{
+    height: 25px;
+  }
+
+  .navbar-links-2 {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 5px;
+  }
+
+  .navbar-links-2.show-menu {
+    display: flex;
+    right: 120px;
+    top: 50px;
+  }
+
+  .navbar-links-2.hide-menu {
+    display: none;
+  }
+
+  .navbar-links-2 li {
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 1090px) and (max-width: 1740px) {
+  .navbar-logo a{
+    font-size: 30px;
+    margin-right: 890px;
+
+  }
+
+  .navbar-actions{
+    margin-left: 300px;
+    position: fixed;
+  }
+
+  .navbar-actions img{
+    height: 30px;
+    margin-left: 40px;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .search-bar input{
+    width: 65px;
+    margin-right: -80px;
+    margin-left: 10px;
+  }
+
+  .search-bar button{
+    height: 20px;
+    margin-top: -20px;
+    border-radius: 1px;
+    margin-right: 10px;
+  }
+
+  .search-bar img{
+    height: 20px;
+    margin-top: -20px;
+  }
+
+  .welcome-message{
+    font-size: 14px;
+    color: #8bbbf9;
+    margin-left: 0px;
+  }
+
+  .auth-button{
+    font-size: 13px;
+    color: #8bbbf9;
+    margin-left: 0px;
+  }
+
+  .navbar-icons span{
+    font-size: 14px;
+  }
+
+  .hamburger {
+    display: flex;
+    background-color: white;
+    margin-right: 280px;
+  }
+
+  .hamburger img{
+    height: 25px;
+  }
+
+  .navbar-links-2 {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 5px;
+  }
+
+  .navbar-links-2.show-menu {
+    display: flex;
+    right: 120px;
+    top: 50px;
+  }
+
+  .navbar-links-2.hide-menu {
+    display: none;
+  }
+
+  .navbar-links-2 li {
+    margin: 10px 0;
+  }
+}

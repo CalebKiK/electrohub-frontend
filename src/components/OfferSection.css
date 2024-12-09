@@ -192,7 +192,7 @@
     .items-on-offer-container{
         margin: 15px;
         height: 600px;
-        width: 350px;
+        width: 390px;
     }
 
     .offers-links{
@@ -249,10 +249,178 @@
       }
   }
 
-  @media (min-width: 450px) and (max-width: 600px) {}
+  @media (min-width: 450px) and (max-width: 860px) {
+    .items-on-offer-container{
+        margin: 15px 30px;
+        height: 600px;
+    }
 
-@media (min-width: 600px) and (max-width: 860px) {}
+    .offers-links{
+        padding: 10px;
+        margin-left: -40px;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
 
-@media (min-width: 860px) and (max-width: 1090px) {}
+    .offers-links ul {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 
-@media (min-width: 1090px) and (max-width: 1740px) {}
+    .offers-links li a{
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    .offer-items {
+        display: block;
+    }
+
+    .offers-display {
+        padding-left: 10px;
+        position: relative;
+        height: 100%;
+        margin-top: -450px;
+    }
+
+    .items-offers-deals h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+        margin-left: 200px;
+    }
+
+    .swipe-buttons {
+        margin-top: -50px;
+        margin-left: 140px;
+    }
+
+    .swipe-buttons button {
+        padding: 5px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+  }
+
+
+@media (min-width: 860px) and (max-width: 1090px) {
+    .items-on-offer-container{
+        margin: 15px;
+        height: 600px;
+        width: 350px;
+    }
+
+    .offers-links{
+        padding: 10px;
+        margin-left: -40px;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+
+    .offers-links ul {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .offers-links li a{
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    .offer-items {
+        display: block;
+    }
+
+    .offers-display {
+        padding-left: 10px;
+        position: relative;
+        height: 100%;
+        margin-top: -400px;
+    }
+
+    .items-offers-deals h2{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .swipe-buttons {
+        margin-top: -50px;
+        margin-left: 140px;
+    }
+
+    .offer-items-cards{
+        width: 20px;
+    }
+
+    .swipe-buttons button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        border-radius: 4px;
+      }
+}
+
+@media (min-width: 1090px) and (max-width: 1740px) {
+    .items-on-offer-container{
+        margin: 15px;
+        height: 600px;
+        width: 350px;
+    }
+
+    .offers-links{
+        padding: 10px;
+        margin-left: -40px;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+
+    .offers-links ul {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .offers-links li a{
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    .offer-items {
+        display: block;
+    }
+
+    .offers-display {
+        padding-left: 10px;
+        position: relative;
+        height: 100%;
+        margin-top: -400px;
+    }
+
+    .items-offers-deals h2{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .swipe-buttons {
+        margin-top: -50px;
+        margin-left: 140px;
+    }
+
+    .offer-items-cards{
+        width: 20px;
+    }
+
+    .swipe-buttons button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        border-radius: 4px;
+      }
+}
