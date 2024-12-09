@@ -191,13 +191,15 @@
   @media (max-width: 450px) {
     .items-on-offer-container{
         margin: 15px;
-        height: 700px;
+        height: 600px;
+        width: 350px;
     }
 
     .offers-links{
         padding: 10px;
-        margin-left: -20px;
+        margin-left: -40px;
         border-radius: 5px;
+        margin-top: 15px;
     }
 
     .offers-links ul {
@@ -219,7 +221,12 @@
         padding-left: 10px;
         position: relative;
         height: 100%;
-        margin-top: -480px;
+        margin-top: -400px;
+    }
+
+    .items-offers-deals h2{
+        font-size: 22px;
+        margin-bottom: 30px;
     }
 
     .swipe-buttons {
@@ -229,8 +236,23 @@
 
     .offer-items-cards{
         width: 20px;
-        
     }
 
-    
+    .swipe-buttons button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        border-radius: 4px;
+      }
   }
+
+  @media (min-width: 450px) and (max-width: 600px) {}
+
+@media (min-width: 600px) and (max-width: 860px) {}
+
+@media (min-width: 860px) and (max-width: 1090px) {}
+
+@media (min-width: 1090px) and (max-width: 1740px) {}

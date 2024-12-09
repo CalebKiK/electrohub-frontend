@@ -185,13 +185,14 @@ button[type="submit"]:hover {
 
 @media (max-width: 450px) {
   .modals-component-content {
-    margin: 50px 10px;
-    padding: 20px;
+    margin: 50px 2px;
+    padding: 10px;
+    width: 340px;
   }
 
   .modals-component h1 {
     font-size: 20px;
-    margin-left: -40px;
+    margin-left: -20px;
   }
 
   .modal-component-btns {
@@ -206,7 +207,7 @@ button[type="submit"]:hover {
   }
   
   .create-item-btn {
-    margin-right: 50px;
+    margin-right: 20px;
   }
   
   .update-item-btn {
@@ -230,38 +231,49 @@ button[type="submit"]:hover {
 
   .crud-modal-content {
     padding: 20px;
-    width: 350px;
+    width: 300px;
+    margin-left: -60px;
+    margin-top: -100px;
   }
   
   .crud-form-close-button {
     font-size: 18px;
     cursor: pointer;
     color: #f4f4f4;
-    height: 35px;
+    height: 25px;
     padding: 5px;
   }
   
   .form-header h2 {
     margin: 0px 10px 0px 20px;
+    font-size: 20px;
   }
   
   .form-group label {
     padding-left: 5px;
     margin-right: 5px;
-    font-size: 10px;
+    font-size: 11px;
     margin-top: -10px;
   }
   
-  .form-group input,
+  .form-group input{
+    flex: 2;
+    height: 30px;
+    width: 20px;
+  }
+
   .form-group select {
     flex: 2;
     height: 35px;
+    width: 20px;
+    font-size: 13px;
   }
   
   /* Submit Button */
   button[type="submit"] {
-    font-size: 13px;
+    font-size: 12px;
     margin-left: 80px;
+    margin-top: -20px;
   }
 
   .create-item-btn:hover,

@@ -186,17 +186,19 @@
 @media (max-width: 450px) {
 
   .navbar-logo a{
-    font-size: 20px;
-    margin-left: -70px;
+    font-size: 25px;
+    margin-right: 490px;
+
   }
 
   .navbar-actions{
-    margin-left: -110px;
+    margin-left: 30px;
+    position: fixed;
   }
 
   .navbar-actions img{
-    height: 30px;
-    margin-right: -10px;
+    height: 24px;
+    margin-left: -40px;
   }
 
   .navbar-links {
@@ -213,6 +215,7 @@
     height: 20px;
     margin-top: -20px;
     border-radius: 1px;
+    margin-right: 10px;
   }
 
   .search-bar img{
@@ -220,10 +223,29 @@
     margin-top: -20px;
   }
 
+  .welcome-message{
+    font-size: 12px;
+    color: #8bbbf9;
+    margin-left: -20px;
+    margin-right: 10px;
+  }
+
+  .auth-button{
+    font-size: 11px;
+    color: #8bbbf9;
+    margin-left: -20px;
+    margin-right: 10px;
+  }
+
+  .navbar-icons span{
+    font-size: 13px;
+  }
+
   .hamburger {
     display: flex;
     background-color: white;
-    margin-left: -120px;
+    margin-left: 180px;
+    position: fixed;
   }
 
   .hamburger img{
@@ -247,6 +269,7 @@
 
   .navbar-links-2.show-menu {
     display: flex;
+    right: 150px;
   }
 
   .navbar-links-2.hide-menu {
@@ -257,14 +280,12 @@
     margin: 10px 0;
   }
 
-  .welcome-message{
-    font-size: 14px;
-    color: #8bbbf9;
-  }
-
-  .auth-button{
-    font-size: 13px;
-    color: #8bbbf9;
-  }
-
 }
+
+@media (min-width: 450px) and (max-width: 600px) {}
+
+@media (min-width: 600px) and (max-width: 860px) {}
+
+@media (min-width: 860px) and (max-width: 1090px) {}
+
+@media (min-width: 1090px) and (max-width: 1740px) {}

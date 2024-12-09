@@ -42,14 +42,13 @@
 
 @media (max-width: 450px) {
     .all-items{
-        width: 440px;
+        width: 350px;
         margin-left: -330px;
     }
 
     .items-display{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        
         margin-right: 20px;
     }
     
@@ -69,3 +68,11 @@
         padding: 5px 10px;
     }
 }
+
+@media (min-width: 450px) and (max-width: 600px) {}
+
+@media (min-width: 600px) and (max-width: 860px) {}
+
+@media (min-width: 860px) and (max-width: 1090px) {}
+
+@media (min-width: 1090px) and (max-width: 1740px) {}
