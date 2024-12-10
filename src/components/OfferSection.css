@@ -299,20 +299,18 @@
         padding: 5px;
         cursor: pointer;
         font-size: 14px;
-      }
+    }
   }
 
-
-@media (min-width: 860px) and (max-width: 1090px) {
+@media (min-width: 860px) and (max-width: 1390px) {
     .items-on-offer-container{
-        margin: 15px;
+        margin: 15px 100px;
         height: 600px;
-        width: 350px;
     }
 
     .offers-links{
-        padding: 10px;
-        margin-left: -40px;
+        padding: 10px 30px;
+        margin-left: -20px;
         border-radius: 5px;
         margin-top: 15px;
     }
@@ -320,7 +318,7 @@
     .offers-links ul {
         list-style-type: none;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .offers-links li a{
@@ -336,7 +334,7 @@
         padding-left: 10px;
         position: relative;
         height: 100%;
-        margin-top: -400px;
+        margin-top: -440px;
     }
 
     .items-offers-deals h2{
@@ -347,10 +345,6 @@
     .swipe-buttons {
         margin-top: -50px;
         margin-left: 140px;
-    }
-
-    .offer-items-cards{
-        width: 20px;
     }
 
     .swipe-buttons button {
@@ -359,12 +353,12 @@
         border: none;
         padding: 5px;
         cursor: pointer;
-        font-size: 12px;
+        font-size: 14px;
         border-radius: 4px;
       }
 }
 
-@media (min-width: 1090px) and (max-width: 1740px) {
+@media (min-width: 1390px) and (max-width: 1740px) {
     .items-on-offer-container{
         margin: 15px;
         height: 600px;
@@ -411,7 +405,7 @@
     }
 
     .offer-items-cards{
-        width: 20px;
+        margin-right: 20px;
     }
 
     .swipe-buttons button {

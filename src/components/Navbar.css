@@ -382,17 +382,14 @@
   }
 }
 
-/* @media (min-width: 600px) and (max-width: 860px) {} */
-
-@media (min-width: 860px) and (max-width: 1090px) {
+@media (min-width: 860px) and (max-width: 1390px) {
   .navbar-logo a{
-    font-size: 30px;
-    margin-right: 890px;
-
+    font-size: 35px;
+    margin-right: 390px;
   }
 
   .navbar-actions{
-    margin-left: 300px;
+    margin-left: 200px;
     position: fixed;
   }
 
@@ -406,9 +403,8 @@
   }
 
   .search-bar input{
-    width: 65px;
-    margin-right: -80px;
-    margin-left: 10px;
+    width: 145px;
+    margin-right: -180px;
   }
 
   .search-bar button{
@@ -424,15 +420,15 @@
   }
 
   .welcome-message{
-    font-size: 14px;
+    font-size: 15px;
     color: #8bbbf9;
-    margin-left: 0px;
+    margin-left: 30px;
   }
 
   .auth-button{
-    font-size: 13px;
+    font-size: 14px;
     color: #8bbbf9;
-    margin-left: 0px;
+    margin-left: 30px;
   }
 
   .navbar-icons span{
@@ -442,7 +438,7 @@
   .hamburger {
     display: flex;
     background-color: white;
-    margin-right: 280px;
+    margin-right: -30px;
   }
 
   .hamburger img{
@@ -465,7 +461,7 @@
 
   .navbar-links-2.show-menu {
     display: flex;
-    right: 120px;
+    right: 110px;
     top: 50px;
   }
 
@@ -478,96 +474,4 @@
   }
 }
 
-@media (min-width: 1090px) and (max-width: 1740px) {
-  .navbar-logo a{
-    font-size: 30px;
-    margin-right: 890px;
 
-  }
-
-  .navbar-actions{
-    margin-left: 300px;
-    position: fixed;
-  }
-
-  .navbar-actions img{
-    height: 30px;
-    margin-left: 40px;
-  }
-
-  .navbar-links {
-    display: none;
-  }
-
-  .search-bar input{
-    width: 65px;
-    margin-right: -80px;
-    margin-left: 10px;
-  }
-
-  .search-bar button{
-    height: 20px;
-    margin-top: -20px;
-    border-radius: 1px;
-    margin-right: 10px;
-  }
-
-  .search-bar img{
-    height: 20px;
-    margin-top: -20px;
-  }
-
-  .welcome-message{
-    font-size: 14px;
-    color: #8bbbf9;
-    margin-left: 0px;
-  }
-
-  .auth-button{
-    font-size: 13px;
-    color: #8bbbf9;
-    margin-left: 0px;
-  }
-
-  .navbar-icons span{
-    font-size: 14px;
-  }
-
-  .hamburger {
-    display: flex;
-    background-color: white;
-    margin-right: 280px;
-  }
-
-  .hamburger img{
-    height: 25px;
-  }
-
-  .navbar-links-2 {
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 70px;
-    padding: 10px 20px;
-    background-color: #333;
-    border-radius: 5px;
-  }
-
-  .navbar-links-2.show-menu {
-    display: flex;
-    right: 120px;
-    top: 50px;
-  }
-
-  .navbar-links-2.hide-menu {
-    display: none;
-  }
-
-  .navbar-links-2 li {
-    margin: 10px 0;
-  }
-}

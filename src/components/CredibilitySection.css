@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: #e6f0f3; 
-    padding: 55px 0px ;
+    padding: 40px 0px ;
     border-radius: 20px;
     margin-top: 150px !important;
     margin-bottom : 50px !important;
@@ -73,18 +73,19 @@
 }
 
 
-@media (min-width: 860px) and (max-width: 1740px) {
+@media (min-width: 860px) and (max-width: 1440px) {
   .credibility-section {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-left: -30px;
+    margin-left: -230px;
     width: 850px;
+    padding: 30px 0px;
   }
   
   .feature {
     text-align: center;
-    margin: 0 20px;
+    margin: 0 50px;
   }
   
   .feature-icon {
@@ -93,7 +94,7 @@
   }
   
   .feature p {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
