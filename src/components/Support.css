@@ -1,16 +1,8 @@
-/* Base Styles */
-body {
-  background-color: #f9f9f9;
-  font-family: Arial, sans-serif;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
 
 /* Containers */
 .support-container {
   max-width: 1850px;
-  margin: 50px auto;
+  margin: 50px 200px;
   padding: 30px;
   background-color: #ffffff;
   border-radius: 30px;

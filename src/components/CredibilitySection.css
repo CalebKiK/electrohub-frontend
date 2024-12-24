@@ -5,11 +5,8 @@
     background-color: #e6f0f3; 
     padding: 40px 0px ;
     border-radius: 20px;
-    margin-top: 150px !important;
-    margin-bottom : 50px !important;
-    margin: 0 auto; 
-    margin: 100px 0px 20px 0;
-    width: 1300px;
+    margin: 160px 0px 60px -80px;
+    width: 1000px;
     transform: translateX(339px);
   }
   
@@ -53,7 +50,7 @@
 
 @media (min-width: 450px) and (max-width: 860px) {
   .credibility-section {
-    margin: 0px -260px;
+    margin: 120px -60px 40px -230px;
     width: 600px;
   }
   
@@ -73,7 +70,7 @@
 }
 
 
-@media (min-width: 860px) and (max-width: 1440px) {
+@media (min-width: 860px) and (max-width: 1340px) {
   .credibility-section {
     text-align: center;
     justify-content: center;

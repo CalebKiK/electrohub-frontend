@@ -1,16 +1,17 @@
 .all-items{
     background-color: #E0E6F6;
-    margin: 100px 0px 20px 0; /* Reset margins */
+    margin: 100px 50px 20px -140px; /* Reset margins */
     border-radius: 20px;
-    width: 1300px;
+    width: 1020px;
     transform: translateX(339px); /* Move 100px to the right */
+    padding: 0px 50px 30px;
 }
 
 .all-items-header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 250px;
 }
 
 .all-items-header h1{
@@ -33,7 +34,7 @@
 
 .items-display{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .all-items-header{

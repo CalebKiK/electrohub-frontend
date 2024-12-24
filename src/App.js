@@ -32,11 +32,11 @@ const App = () => {
 
   // Fetch items from the server on initial load
   useEffect(() => {
-
     // fetchItems();
-    fetch("https://electrohub-backend.onrender.com/api/items")
+    fetch("http://127.0.0.1:5555/api/items")
     .then(response => response.json())
-    .then(data => setItems(data));
+    .then(data => setItems(data))
+    .catch(error => console.error("Error fetching all items:", {error}))
   }, []);
 
   // Handle category selection

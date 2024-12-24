@@ -100,6 +100,7 @@
 .search-bar input {
   padding: 0.5rem;
   border-radius: 4px;
+  margin-right: -195px;
   border: none;
   width: 200px;
   transition: width 0.3s ease, background-color 0.3s ease, color 0.3s ease;
@@ -110,18 +111,18 @@
   background-color: white; /* Background changes to white on focus */
   color: blue; /* Text color changes to blue on focus */
   outline: none; /* Remove default browser focus outline */
+  margin-right: -105px;
 }
 .search-bar input::placeholder {
   color: rgba(4, 54, 68, 0.5); /* Optional: Blue-ish placeholder when typing */
 }
 
 .search-bar button {
-  background: none;
+  background: none !important;
   border: none;
   font-size: 15px;
   cursor: pointer;
-  color: white;
-  margin-left: 5px;
+  margin-top: -15px;
 }
 
 .auth-buttons {
