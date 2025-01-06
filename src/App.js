@@ -33,7 +33,7 @@ const App = () => {
   // Fetch items from the server on initial load
   useEffect(() => {
     // fetchItems();
-    fetch("http://127.0.0.1:5555/api/items")
+    fetch("https://electrohub-backend-ezes.onrender.com/api/items")
     .then(response => response.json())
     .then(data => setItems(data))
     .catch(error => console.error("Error fetching all items:", {error}))
@@ -68,11 +68,6 @@ const App = () => {
       }
     });
   };
-
-  // Handle search input change
-  // const handleSearchChange = (event) => {
-  //   setSearchTerm(event.target.value);
-  // };
 
   // Handle search submission to filter items
   const handleSearchSubmit = async (searchTerm) => {
@@ -153,16 +148,7 @@ const App = () => {
           <Route path="/item-details/:id" element={<ItemDetails />} />
           <Route path="/modify-items-modals" element={<ShowModals />} />
         </Routes>
-        {/* <Routes>
-          <Route path="/modify-items-modals" element={<ShowModals />} />
-        </Routes> */}
           <Routes>
-          {/* <Route path="/" element={
-            <div>
-              <OfferSection items={items} addToCart={addToCart}/>
-              <ItemsAll items={items} addToCart={addToCart} />
-            </div>
-          } /> */}
           {/* Customer Support Pages */}
           <Route path="/FAQs" element={<FAQsPage />} />
           <Route path="/Customer-Feedback" element={<FeedbackPage />} />

@@ -6,7 +6,7 @@ function BestSellers({ addToCart }) {
     const [offset, setOffset] = useState(0);
 
     useEffect(() => {
-        fetch("https://electrohub-backend.onrender.com/api/items/best_sellers")
+        fetch("https://electrohub-backend-ezes.onrender.com/api/items/best_sellers")
             .then(response => response.json())
             .then(data => setBestSellers(data));
     }, []);
