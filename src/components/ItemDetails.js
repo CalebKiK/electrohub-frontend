@@ -23,12 +23,13 @@ function ItemDetails() {
 
     // Fetch reviews and average rating
     useEffect(() => {
-        fetch(`https://electrohub-backend.onrender.com/api/item_id/${itemId}/reviews`)
+        // fetch(`https://electrohub-backend.onrender.com/api/item_id/${itemId}/reviews`)
+        fetch(`http://127.0.0.1:5000/api/item_id/${itemId}/reviews`)
             .then(response => response.json())
             .then(data => setReviews(data))
             .catch(error => console.error("Error fetching reviews:", error));
 
-        fetch(`https://electrohub-backend.onrender.com/api/item/item_id/${itemId}/average_rating`)
+        fetch(`http://127.0.0.1:5000/api/item/item_id/${itemId}/average_rating`)
             .then(response => response.json())
             .then(data => setAverageRating(data.average_rating))
             .catch(error => console.error("Error fetching average rating:", error));
@@ -36,7 +37,7 @@ function ItemDetails() {
 
     // Handle review submission
     const handleReviewSubmit = () => {
-        fetch(`https://electrohub-backend.onrender.com/api/item_id/${itemId}/reviews`, {
+        fetch(`http://127.0.0.1:5000/api/item_id/${itemId}/reviews`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newReview),
@@ -57,7 +58,7 @@ function ItemDetails() {
             return;
         }
 
-        fetch(`https://electrohub-backend.onrender.com/api/items/reviews/${reviewId}`, {
+        fetch(`http://127.0.0.1:5000/api/items/reviews/${reviewId}`, {
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ review_message: updatedReviewMessage }), // Use the updated message
@@ -77,7 +78,7 @@ function ItemDetails() {
         const confirmation = window.confirm("Are you sure you want to delete this review?");
         if (!confirmation) return;
 
-        fetch(`https://electrohub-backend.onrender.com/api/items/reviews/${reviewId}`, {
+        fetch(`http://127.0.0.1:5000/api/items/reviews/${reviewId}`, {
             method: 'DELETE',
         })
             .then(() => {
@@ -89,7 +90,7 @@ function ItemDetails() {
 
     // Fetch average rating after review operations
     const fetchAverageRating = () => {
-        fetch(`https://electrohub-backend.onrender.com/api/item/item_id/${itemId}/average_rating`)
+        fetch(`http://127.0.0.1:5000/api/item/item_id/${itemId}/average_rating`)
             .then(response => response.json())
             .then(data => setAverageRating(data.average_rating))
             .catch(error => console.error("Error fetching average rating: ", error));
@@ -117,7 +118,7 @@ function ItemDetails() {
             <div className="item-details-info">
                 <div className="item-details-content">
                     <div className="item-details-image">
-                        <img src={`https://electrohub-backend.onrender.com/static/${item.item_image_url}`} alt={item.item_name} />
+                        <img src={`http://127.0.0.1:5000/static/${item.item_image_url}`} alt={item.item_name} />
                     </div>
                     <div className="item-details-text">
                         <h3>{item.item_name}</h3>

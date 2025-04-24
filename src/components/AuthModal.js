@@ -17,7 +17,7 @@ const AuthModal = ({ mode, onClose, onAuthChange }) => {
   // Sign Up function
   const signUp = async () => {
     try {
-      const response = await fetch('https://electrohub-backend.onrender.com/api/users', {
+      const response = await fetch('http://127.0.0.1:5000/api/users', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -48,7 +48,7 @@ const AuthModal = ({ mode, onClose, onAuthChange }) => {
   // Sign In function
   const signIn = async () => {
     try {
-      const response = await fetch('https://electrohub-backend.onrender.com/api/login', {
+      const response = await fetch('http://127.0.0.1:5000/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
