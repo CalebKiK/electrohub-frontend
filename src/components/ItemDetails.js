@@ -15,7 +15,7 @@ function ItemDetails() {
 
     // Fetch item details
     useEffect(() => {
-        fetch(`https://electrohub-backend.onrender.com/api/item_details/item_id/${itemId}`)
+        fetch(`http://127.0.0.1:5000/api/item_details/item_id/${itemId}`)
             .then(response => response.json())
             .then(data => setItem(data))
             .catch(error => console.error("Error fetching item details:", error));
