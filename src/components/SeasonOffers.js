@@ -6,7 +6,7 @@ function SeasonOffers({ addToCart }) {
     const [offset, setOffset] = useState(0);
 
     useEffect(() => {
-    fetch("https://electrohub-backend-ezes.onrender.com/api/items/season_offers")
+    fetch("http://127.0.0.1:5000/api/items/season_offers")
     .then(response => response.json())
     .then(data => setSeasonOffers(data));
     }, []);
