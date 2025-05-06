@@ -6,7 +6,7 @@ function HotNewOffers({ addToCart }) {
     const [offset, setOffset] = useState(0);
 
     useEffect(() => {
-        fetch("http://127.0.0.1:5000/api/items/hot_&_new")
+        fetch("https://electrohub-backend-ezes.onrender.com/api/items/hot_&_new")
         .then(response => response.json())
         .then(data => setHotNew(data));
       }, []);

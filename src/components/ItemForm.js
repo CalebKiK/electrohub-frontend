@@ -41,7 +41,7 @@ const AddItemForm = () => {
     };
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/items', {
+      const response = await fetch('https://electrohub-backend-ezes.onrender.com/api/items', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

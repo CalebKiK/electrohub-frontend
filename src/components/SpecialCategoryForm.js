@@ -18,8 +18,8 @@ const SpecialCategoryForm = ({ onItemSpecialCategoryClose }) => {
     }
 
     const url = action === 'add'
-      ? `http://127.0.0.1:5000/api/item/${itemId}/add_special_category`
-      : `http://127.0.0.1:5000/api/item/${itemId}/remove_special_category`;
+      ? `https://electrohub-backend-ezes.onrender.com/api/item/${itemId}/add_special_category`
+      : `https://electrohub-backend-ezes.onrender.com/api/item/${itemId}/remove_special_category`;
 
     const requestBody = {
       special_category_name: categoryName,

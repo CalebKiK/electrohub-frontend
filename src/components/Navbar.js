@@ -66,7 +66,7 @@ const NavBar = ({ onCategoryClick, cartItems, onSearchSubmit, onSearchChange }) 
   // Category click logic
   const handleCategoryClick = async (category) => {// eslint-disable-line no-unused-vars
     try {
-      const response = await fetch(`http://127.0.0.1:5000/items?main_category=${category}`);
+      const response = await fetch(`https://electrohub-backend-ezes.onrender.com/items?main_category=${category}`);
       const data = await response.json();
       setCategoryItems(data); // Store items of selected category
     } catch (error) {

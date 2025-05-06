@@ -16,7 +16,7 @@ function ItemStockForm({ onItemInStockClose }) {
         setErrorMessage('');
 
         try {
-            const response = await fetch(`http://127.0.0.1:5000/api/item/${itemId}/items_in_stock`);
+            const response = await fetch(`https://electrohub-backend-ezes.onrender.com/api/item/${itemId}/items_in_stock`);
             
             if (!response.ok) {
                 const errorData = await response.json();

@@ -34,7 +34,7 @@ const App = () => {
   useEffect(() => {
     // fetchItems();
     // fetch("https://electrohub-backend-ezes.onrender.com/api/items")
-    fetch("http://127.0.0.1:5000/api/items")
+    fetch("https://electrohub-backend-ezes.onrender.com/api/items")
     .then(response => response.json())
     .then(data => setItems(data))
     .catch(error => console.error("Error fetching all items:", {error}))
