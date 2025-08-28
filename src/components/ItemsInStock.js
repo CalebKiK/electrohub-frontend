@@ -9,7 +9,7 @@ const ItemsInStock = ({ itemId }) => {
     const fetchItemsInStock = async () => {
       try {
         // Ensure the URL dynamically uses itemId
-        const response = await fetch(`https://electrohub-backend-ezes.onrender.com/api/item/${itemId}/items_in_stock`);
+        const response = await fetch(`https://electrohub-backend.fly.dev/api/item/${itemId}/items_in_stock`);
 
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

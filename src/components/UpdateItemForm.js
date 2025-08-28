@@ -67,7 +67,7 @@ const UpdateItemForm = ({ onUpdateItemClose }) => {
     }
 
     try {
-      const response = await fetch(`https://electrohub-backend-ezes.onrender.com/api/items/item_id/${formData.item_id}`, {
+      const response = await fetch(`https://electrohub-backend.fly.dev/api/items/item_id/${formData.item_id}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',

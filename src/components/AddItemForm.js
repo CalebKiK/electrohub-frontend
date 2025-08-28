@@ -62,7 +62,7 @@ const AddItemForm = ({ onCreateItemClose }) => {
     };
 
     try {
-      const response = await fetch('https://electrohub-backend-ezes.onrender.com/api/items', {
+      const response = await fetch('https://electrohub-backend.fly.dev/api/items', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
