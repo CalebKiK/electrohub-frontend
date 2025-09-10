@@ -21,12 +21,12 @@
 }
 
 .modal-content {
-  background: rgba(173, 216, 230, 0.15); /* Light blue, semi-transparent */
+  background: rgb(75, 92, 98); /* Light blue, semi-transparent */
   backdrop-filter: blur(10px); /* Blur effect for glass-like appearance */
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
-  width: 320px;
+  width: 520px;
   text-align: center;
   color: #fff; /* White text for better contrast on a light blue background */
 }
@@ -44,8 +44,8 @@
   margin: 0.5rem 0;
   border: none;
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.2); /* Lightly tinted input background */
-  color: #1b1b41; /* Default blue color for text */
+  background: rgba(67, 67, 67, 0.803); /* Lightly tinted input background */
+  color: #02023c; /* Default blue color for text */
 }
 .modal-content form select {
   appearance: none; /* Remove default dropdown styling for custom appearance */
@@ -84,12 +84,34 @@
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25); /* Increased shadow on hover */
 }
 
-.close-button {
-  background: transparent !important;
+.auth-buttons{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px;
+}
+
+.auth-buttons button{
+  margin: 0px 20px;
+}
+
+.auth-submit-btn{
+  padding: 0px 50px !important;
+  margin-left: 0px !important;
+}
+
+.auth-close-button {
+  background-color: rgb(156, 156, 156) !important;
   border: none !important;
-  color: #d5d5d6 !important;
+  color: #e27967 !important;
   cursor: pointer !important;
   margin-top: 1rem !important;
   font-size: 0.9rem !important;
   margin-left: 0px !important;
 }
+
+ @media (max-width: 450px) {
+  .modal-content {
+    width: 320px;
+  }
+ }
+

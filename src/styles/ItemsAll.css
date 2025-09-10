@@ -1,9 +1,8 @@
 .all-items{
     background-color: #E0E6F6;
-    margin: 100px 50px 20px -140px; /* Reset margins */
+    margin: 100px 200px 20px;
     border-radius: 20px;
-    width: 1020px;
-    transform: translateX(339px); /* Move 100px to the right */
+    /* transform: translateX(339px); */
     padding: 0px 50px 30px;
 }
 
@@ -34,7 +33,7 @@
 
 .items-display{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .all-items-header{
@@ -101,8 +100,7 @@
 
 @media (min-width: 860px) and (max-width: 1390px) {
     .all-items{
-        margin-left: -240px;
-        width: 850px;
+        margin: 15px 100px;
     }
 
     .items-display{

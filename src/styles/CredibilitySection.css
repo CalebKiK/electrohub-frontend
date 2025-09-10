@@ -5,9 +5,7 @@
     background-color: #e6f0f3; 
     padding: 40px 0px ;
     border-radius: 20px;
-    margin: 160px 0px 60px -80px;
-    width: 1000px;
-    transform: translateX(339px);
+    margin: 160px 200px 60px;
   }
   
   .feature {
@@ -16,8 +14,8 @@
   }
   
   .feature-icon {
-    width: 70px; /* Smaller width */
-    height: 70px; /* Smaller height */
+    width: 70px;
+    height: 70px;
     margin-bottom: 0px;
   }
   
@@ -70,13 +68,12 @@
 }
 
 
-@media (min-width: 860px) and (max-width: 1340px) {
+@media (min-width: 860px) and (max-width: 1390px) {
   .credibility-section {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-left: -230px;
-    width: 850px;
+    margin: 15px 100px;
     padding: 30px 0px;
   }
   

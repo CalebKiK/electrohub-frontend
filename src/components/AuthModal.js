@@ -133,7 +133,11 @@ const AuthModal = ({ mode, onClose, onAuthChange }) => {
             </select>
           )}
           
-          <button type="submit">{authMode === "signIn" ? "Sign In" : "Sign Up"}</button>
+          <div className='auth-buttons'>
+            <button className='auth-submit-btn' type="submit">{authMode === "signIn" ? "Sign In" : "Sign Up"}</button>
+            <button className="auth-close-button" onClick={onClose}>Cancel</button>
+            {/* <button className="auth-close-button" onClick={onClose}>Close</button> */}
+          </div>
         </form>
         {/* Display success or error messages */}
         {successMessage && <p className="success-message">{successMessage}</p>}
@@ -142,7 +146,7 @@ const AuthModal = ({ mode, onClose, onAuthChange }) => {
         <button onClick={toggleMode}>
           {authMode === "signIn" ? "Need an account? Sign Up" : "Already have an account? Sign In"}
         </button>
-        <button className="close-button" onClick={onClose}>Close</button>
+        
       </div>
     </div>
   );
