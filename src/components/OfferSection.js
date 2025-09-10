@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import './OfferSection.css';
+import '../styles/OfferSection.css';
 import HotNewOffers from "./Hot&NewOffers";
 import DailyDeals from "./DailyDeals";
 import BestSellers from "./BestSellers";

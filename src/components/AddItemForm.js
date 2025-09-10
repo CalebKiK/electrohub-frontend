@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Modal.css'; 
+import '../styles/Modal.css'; 
 
 const AddItemForm = ({ onCreateItemClose }) => {
   const [formData, setFormData] = useState({

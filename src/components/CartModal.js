@@ -1,5 +1,5 @@
 import React from 'react';
-import './CartModal.css';  // Assuming you have Cart-specific styles
+import '../styles/CartModal.css'; 
 
 const CartModal = ({ cartItems, onClose, username, proceedToCheckout }) => {
   console.log(username);  // Debugging line to check the value of username

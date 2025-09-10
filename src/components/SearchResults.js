@@ -1,6 +1,6 @@
 import React from 'react';
 import ItemCard from './ItemCard';
-import './SearchResults.css';
+import '../styles/SearchResults.css';
 
 const SearchResults = ({ results, onClose, addToCart }) => { // Accept addToCart as a prop
   return (

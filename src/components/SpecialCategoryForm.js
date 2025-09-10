@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Modal.css';
+import '../styles/Modal.css';
 
 const SpecialCategoryForm = ({ onItemSpecialCategoryClose }) => {
   const [itemName, setItemName] = useState('');

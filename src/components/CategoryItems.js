@@ -1,6 +1,6 @@
 import React from 'react';
 import ItemCard from './ItemCard'; // Import the ItemCard component
-import './CategoryItems.css';
+import '../styles/CategoryItems.css';
 
 const CategoryItems = ({ items, onClose, addToCart }) => {
     return (

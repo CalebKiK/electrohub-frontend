@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom';
-import './ItemDetails.css';
+import '../styles/ItemDetails.css';
 
 function ItemDetails() {
     const [item, setItem] = useState({});

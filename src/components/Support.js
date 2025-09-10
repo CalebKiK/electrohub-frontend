@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Support.css';
+import '../styles/Support.css';
 
 const Support = () => {
   return (

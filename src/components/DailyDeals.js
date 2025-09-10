@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import './OfferSection.css';
+import '../styles/OfferSection.css';
 import ItemCard from "./ItemCard";
 
 function DailyDeals({ addToCart }) {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './AuthModal.css';
+import '../styles/AuthModal.css';
 
 const AuthModal = ({ mode, onClose, onAuthChange }) => {
   const [authMode, setAuthMode] = useState(mode);

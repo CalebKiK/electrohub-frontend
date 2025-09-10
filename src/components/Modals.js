@@ -4,7 +4,7 @@ import UpdateItemForm from "./UpdateItemForm";
 import DeleteItemForm from "./DeleteForm";
 import SpecialCategoryForm from "./SpecialCategoryForm";
 import ItemStockForm from "./ItemStock";
-import './Modal.css'; 
+import '../styles/Modal.css'; 
 
 function ShowModals(){
 

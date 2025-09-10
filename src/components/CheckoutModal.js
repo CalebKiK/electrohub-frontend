@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './CheckoutModal.css';
+import '../styles/CheckoutModal.css';
 
 const CheckoutModal = ({ onClose, orderDetails }) => {
   const [paymentMethod, setPaymentMethod] = useState('Credit Card');

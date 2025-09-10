@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'; // eslint-disable-line no-unused-vars
-import './Navbar.css';
+import '../styles/Navbar.css';
 import AuthModal from './AuthModal';
 import CartModal from './CartModal';
 import CheckoutModal from './CheckoutModal';

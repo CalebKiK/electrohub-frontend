@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ItemCard from "./ItemCard";
+import ItemCard from "../styles/ItemCard";
 
 function SeasonOffers({ addToCart }) {
     const [seasonOffers, setSeasonOffers] = useState([]);

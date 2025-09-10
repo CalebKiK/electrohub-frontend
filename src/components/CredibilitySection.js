@@ -1,5 +1,5 @@
 import React from 'react';
-import './CredibilitySection.css';
+import '../styles/CredibilitySection.css';
 
 const CredibilitySection = () => {
   const features = [
