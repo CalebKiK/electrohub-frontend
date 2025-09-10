@@ -17,7 +17,7 @@ const AuthModal = ({ mode, onClose, onAuthChange }) => {
   // Sign Up function
   const signUp = async () => {
     try {
-      const response = await fetch('https://electrohub-backend-ezes.onrender.com/api/users', {
+      const response = await fetch('https://electrohub-backend.fly.dev/api/users', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -48,7 +48,7 @@ const AuthModal = ({ mode, onClose, onAuthChange }) => {
   // Sign In function
   const signIn = async () => {
     try {
-      const response = await fetch('https://electrohub-backend-ezes.onrender.com/api/login', {
+      const response = await fetch('https://electrohub-backend.fly.dev/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

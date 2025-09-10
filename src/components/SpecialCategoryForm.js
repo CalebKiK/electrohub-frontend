@@ -18,8 +18,8 @@ const SpecialCategoryForm = ({ onItemSpecialCategoryClose }) => {
     }
 
     const url = action === 'add'
-      ? `https://electrohub-backend-ezes.onrender.com/api/item/${itemId}/add_special_category`
-      : `https://electrohub-backend-ezes.onrender.com/api/item/${itemId}/remove_special_category`;
+      ? `https://electrohub-backend.fly.dev/api/item/${itemId}/add_special_category`
+      : `https://electrohub-backend.fly.dev/api/item/${itemId}/remove_special_category`;
 
     const requestBody = {
       special_category_name: categoryName,

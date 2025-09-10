@@ -7,7 +7,7 @@ function DailyDeals({ addToCart }) {
     const [offset, setOffset] = useState(0);
 
     useEffect(() => {
-    fetch("https://electrohub-backend-ezes.onrender.com/api/items/daily_deals")
+    fetch("https://electrohub-backend.fly.dev/api/items/daily_deals")
     .then(response => response.json())
     .then(data => setDailyDeals(data));
     }, []);

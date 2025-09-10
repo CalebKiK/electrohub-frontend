@@ -6,7 +6,7 @@ function HotNewOffers({ addToCart }) {
     const [offset, setOffset] = useState(0);
 
     useEffect(() => {
-        fetch("https://electrohub-backend-ezes.onrender.com/api/items/hot_&_new")
+        fetch("https://electrohub-backend.fly.dev/api/items/hot_&_new")
         .then(response => response.json())
         .then(data => setHotNew(data));
       }, []);
