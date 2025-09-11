@@ -211,7 +211,7 @@ const UpdateItemForm = ({ onUpdateItemClose }) => {
                 />
               </div>
 
-              <button type="submit" className="submit-button">Update Item</button>
+              <button type="submit" className="crud-submit-button">Update Item</button>
             </form>
           </div>
         </div>

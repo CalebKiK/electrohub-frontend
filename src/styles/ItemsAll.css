@@ -42,8 +42,8 @@
 
 @media (max-width: 450px) {
     .all-items{
-        width: 390px;
-        margin-left: -320px;
+        margin: 30px 20px;
+        padding: 0px 0px 30px;
     }
 
     .items-display{
@@ -71,8 +71,8 @@
 
 @media (min-width: 450px) and (max-width: 860px) {
     .all-items{
-        width: 730px;
-        margin: 70px 0px 0px -300px;
+        margin: 60px 30px 0px;
+        padding: 0px 10px 30px;
     }
 
     .items-display{

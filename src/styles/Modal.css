@@ -159,7 +159,7 @@
 }
 
 /* Submit Button */
-button[type="submit"] {
+.crud-submit-button {
   width: 50%;
   padding: 15px;
   border-radius: 20px;
@@ -170,7 +170,7 @@ button[type="submit"] {
   margin-left: 180px;
 }
 
-button[type="submit"]:hover {
+.crud-submit-button:hover {
   background-color: #4b45a0;
 }
 
@@ -268,7 +268,7 @@ button[type="submit"]:hover {
   }
   
   /* Submit Button */
-  button[type="submit"] {
+  .crud-submit-button {
     font-size: 12px;
     margin-left: 80px;
     margin-top: -20px;
@@ -368,7 +368,7 @@ button[type="submit"]:hover {
   }
   
   /* Submit Button */
-  button[type="submit"] {
+  .crud-submit-button {
     font-size: 15px;
     margin-left: 30px;
     margin-top: 0px;

@@ -143,7 +143,7 @@ const AuthModal = ({ mode, onClose, onAuthChange }) => {
         {successMessage && <p className="success-message">{successMessage}</p>}
         {errorMessage && <p className="error-message">{errorMessage}</p>}
 
-        <button onClick={toggleMode}>
+        <button className='auth-toggle-btn' onClick={toggleMode}>
           {authMode === "signIn" ? "Need an account? Sign Up" : "Already have an account? Sign In"}
         </button>
         

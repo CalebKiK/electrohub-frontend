@@ -151,7 +151,7 @@ const AddItemForm = () => {
                 />
               </div>
 
-              <button type="submit" className="submit-button">Add Item</button>
+              <button type="submit" className="crud-submit-button">Add Item</button>
             </form>
           </div>
         </div>

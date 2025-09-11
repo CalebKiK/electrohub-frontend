@@ -76,7 +76,7 @@ const DeleteItemForm = ({ onDeleteItemClose }) => {
               />
             </div>
 
-              <button type="submit" className="submit-button">Delete Item</button>
+              <button type="submit" className="crud-submit-button">Delete Item</button>
             </form>
           </div>
         </div>
