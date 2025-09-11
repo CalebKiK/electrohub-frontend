@@ -35,6 +35,11 @@
 .navbar-logo {
   font-size: 2.0rem;
   font-weight: bold;
+  
+}
+
+.navbar-logo a{
+    color: #e3e8ff;
 }
 
 .navbar-links {
@@ -237,7 +242,7 @@
   .hamburger {
     display: flex;
     background-color: white;
-    margin-left: 280px;
+    margin-left: 260px;
     position: fixed;
   }
 

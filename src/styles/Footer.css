@@ -79,14 +79,17 @@ html, body {
   color: rgb(192, 192, 192);
 }
 
-
 .social-media a:hover {
   color: #fff; 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
+  .social-media a {
+    margin: 0 25px;
+  }
+
   .quick-links{
-    margin: 40px 0px 0px -40px;
+    margin: 40px 0px 0px;
   }
 
   .quick-links a{
@@ -99,13 +102,35 @@ html, body {
   }
 }
 
-@media (min-width: 450px) and (max-width: 860px) {
+@media (min-width: 500px) and (max-width: 860px) {
+  .social-media a {
+    margin: 0 30px;
+  }
+
   .quick-links{
-    margin: 30px 0px 0px -40px;
+    margin: 30px 0px 0px;
   }
 
   .quick-links a{
-    margin-right: 15px;
+    margin-right: 25px;
+  }
+
+  .footer-bottom p{
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 860px) and (max-width: 1160px) {
+  .social-media a {
+    margin: 0 30px;
+  }
+
+  .quick-links{
+    margin: 30px 0px 0px;
+  }
+
+  .quick-links a{
+    margin-right: 25px;
   }
 
   .footer-bottom p{

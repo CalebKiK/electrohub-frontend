@@ -15,15 +15,15 @@ code {
 }
 
 @media (max-width: 450px) {
-  body{
+  /* body{
     width: 430px;
-  }
+  } */
 }
 
 @media (min-width: 450px) and (max-width: 860px) {
-  body{
+  /* body{
     width: 800px;
-  }
+  } */
 }
 
 @media (min-width: 860px) and (max-width: 1090px) {}
