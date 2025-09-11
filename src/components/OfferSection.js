@@ -8,7 +8,7 @@ import SeasonOffers from "./SeasonOffers";
 
 function OfferSection({ addToCart }) {
     const [selectedOffer, setSelectedOffer] = useState("dailyDeals");
-    const [previousOffer, setPreviousOffer] = useState("dailyDeals");// eslint-disable-line no-unused-vars
+    const [previousOffer, setPreviousOffer] = useState("dailyDeals");
     const [direction, setDirection] = useState(null);
 
     const handleOfferClick = (offer) => {

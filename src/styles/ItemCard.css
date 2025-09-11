@@ -51,6 +51,7 @@
 
 .item-price {
   display: flex;
+  flex-direction: row;
   margin-top: 10px;
 }
 
@@ -161,12 +162,16 @@
     max-height: 200px;
   }
 
+  .item-price {
+    flex-wrap: wrap;
+  }
+
   .item-price p{
     font-size: 12px;
   }
 
   .item-price span {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .item-features p {

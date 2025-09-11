@@ -27,9 +27,11 @@ function ItemCard({ item, addToCart }) {
 
                 <div className="item-price">
                     <p className="current-price">Ksh {item.item_price}</p>
-                    <p className="prev-price">
-                        <span>Ksh {item.item_prev_price}</span>
-                    </p>
+                    {item.item_prev_price && 
+                        <p className="prev-price">
+                            <span>Ksh {item.item_prev_price}</span>
+                        </p>
+                    }  
                 </div>
 
                 <div className="item-card-buttons">

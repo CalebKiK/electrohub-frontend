@@ -49,7 +49,7 @@
     .items-display{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: 0px 15px;
+        margin: 0px;
     }
     
     .all-items-header{

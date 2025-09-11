@@ -196,7 +196,7 @@ function ItemDetails() {
                                     <button onClick={() => handleDeleteReview(review.id)} className="delete-review">Delete</button>
                                 </div>
                             </div>
-                        )) : <p>No reviews yet</p>}
+                        )) : <p className="no-reviews-text">No reviews yet</p>}
                     </div>
                 </div>
             </div>
