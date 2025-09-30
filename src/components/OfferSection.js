@@ -8,7 +8,7 @@ import SeasonOffers from "./SeasonOffers";
 
 function OfferSection({ addToCart }) {
     const [selectedOffer, setSelectedOffer] = useState("dailyDeals");
-    const [previousOffer, setPreviousOffer] = useState("dailyDeals");
+    // const [previousOffer, setPreviousOffer] = useState("dailyDeals");
     const [direction, setDirection] = useState(null);
 
     const handleOfferClick = (offer) => {
@@ -19,7 +19,7 @@ function OfferSection({ addToCart }) {
             (offer === "seasonOffers" && selectedOffer === "hotNew");
 
         setDirection(isBelow ? "down" : "up");
-        setPreviousOffer(selectedOffer);
+        // setPreviousOffer(selectedOffer);
         setSelectedOffer(offer);
     }
 };
