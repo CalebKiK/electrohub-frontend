@@ -2,7 +2,6 @@
     background-color: #E0E6F6;
     margin: 100px 200px 20px;
     border-radius: 20px;
-    /* transform: translateX(339px); */
     padding: 0px 50px 30px;
 }
 
@@ -34,6 +33,7 @@
 .items-display{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    overflow-x: hidden;
 }
 
 .all-items-header{
@@ -42,7 +42,7 @@
 
 @media (max-width: 450px) {
     .all-items{
-        margin: 30px 20px;
+        margin: 30px 10px;
         padding: 0px 0px 30px;
     }
 
