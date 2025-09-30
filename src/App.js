@@ -32,7 +32,6 @@ const App = () => {
 
   // Fetch items from the server on initial load
   useEffect(() => {
-    // fetchItems();
     // fetch("https://electrohub-backend-ezes.onrender.com/api/items")
     fetch("https://electrohub-backend.fly.dev/api/items")
     .then(response => response.json())
@@ -40,18 +39,15 @@ const App = () => {
     .catch(error => console.error("Error fetching all items:", {error}))
   }, []);
 
-  // Handle category selection
   const handleCategoryClick = async (category) => {
     try {
       const response = await fetch(`https://api-categories-43n8.onrender.com/items?main_category=${category}`);
       const data = await response.json();
-      setCategoryItems(data); // Update the categoryItems state
+      setCategoryItems(data); 
     } catch (error) {
       console.error("Error fetching items by category:", error);
     }
   };
-
-  // eslint-disable-next-line no-unused-vars
  
   // Add item to cart and ensure quantity is valid
   const addToCart = (item) => {
@@ -153,7 +149,7 @@ const App = () => {
           {/* Customer Support Pages */}
           <Route path="/FAQs" element={<FAQsPage />} />
           <Route path="/Customer-Feedback" element={<FeedbackPage />} />
-          <Route path="/support" element={<Support />} /> {/* keep this route for standalone access */}
+          <Route path="/support" element={<Support />} /> 
           <Route path="/warranty" element={<Warranty />} />
           <Route path="/order-support" element={<OrderSupport />} />
 
